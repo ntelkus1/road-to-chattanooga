@@ -299,7 +299,7 @@ td.num{font-family:var(--mono)}
       what.append(t, det);
       if (d.steps && d.steps.length) {
         const ul = document.createElement('ul'); ul.className = 'steps';
-        for (const st of d.steps) { const li = document.createElement('li'); li.textContent = st; if (/End[:,]/.test(st)) li.className = 'end'; ul.append(li); }
+        for (const st of d.steps) { const li = document.createElement('li'); li.textContent = st; if (/End[:,]/.test(st)) li.className = 'end'; ul.append(li); }
         what.append(ul);
       }
       if (!isRest) {
